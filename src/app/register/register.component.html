@@ -1,0 +1,21 @@
+<div class="container mt-4">
+  <h3>Register Here!</h3>
+  <hr>
+  <form [formGroup]="signupForm">
+    <div class="mb-3">
+      <label for="" class="form-label">Username</label>
+      <input type="text" class="form-control" formControlName="username">
+    </div>
+    <div class="mb-3">
+      <label for="" class="form-label">Email address</label>
+      <input type="email" class="form-control" formControlName="email">
+    </div>
+    <div class="mb-3">
+      <label for="" class="form-label">Password</label>
+      <input type="password" class="form-control" formControlName="password">
+    </div>
+    <button type="button" (click)="onSignUp()" class="btn btn-primary btn-sm">Submit</button>
+  </form>
+</div>
+<br>
+<app-nav-bottom></app-nav-bottom>
