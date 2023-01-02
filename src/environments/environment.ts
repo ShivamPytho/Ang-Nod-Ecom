@@ -3,7 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  SERVER: "http://localhost:4227/",
+  SERVERURL: "http://localhost:4200/",
+  UPLOADAUDIOPATH: "https://localhost:4200/assets/avatarfile/"
 };
 
 /*
